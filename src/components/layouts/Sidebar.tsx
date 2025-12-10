@@ -51,7 +51,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         flex flex-col transition-transform duration-300 ease-in-out
         ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
       `}>
-        <div className="px-4 border-b border-gray-200 flex items-center justify-between">
+        <div className="p-4 border-b border-gray-200 flex items-center justify-between">
   <Image 
     src="/logo.png" 
     alt="FinDash Logo" 
